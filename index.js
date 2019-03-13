@@ -3,7 +3,7 @@
 
 const Koa = require('koa');
 
-require("marko/src/node-require")
+require("marko/node-require")
 //require("marko/browser-refresh").enable()
 //require('marko/hot-reload').enable();
 
