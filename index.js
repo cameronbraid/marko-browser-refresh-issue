@@ -1,4 +1,3 @@
-// NodeJs version of the php version
 'use strict';
 
 const Koa = require('koa');
@@ -8,7 +7,6 @@ require("marko/node-require")
 //require('marko/hot-reload').enable();
 
 process.on('unhandledRejection', error => {
-/* istanbul ignore next */
   console.error('unhandledRejection', error);
 });
 
@@ -19,7 +17,7 @@ let index = require('./index.marko');
 function getTemplate(path) {
   try {
     if (path == "/") return index;
-    return require(`.${path }.marko`);
+    return require(`.${path}.marko`);
   }
   catch (e) {
     return null
