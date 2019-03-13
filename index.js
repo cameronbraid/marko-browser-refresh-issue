@@ -50,7 +50,7 @@ app.use((ctx, next) => {
     })
   }
   else {
-    return send(ctx, ctx.path, { root: __dirname });
+    return next()
   }
 });
 
