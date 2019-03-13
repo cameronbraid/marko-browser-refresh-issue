@@ -1661,9 +1661,9 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marko@^4.15.4-drivenow-mobx-1:
-  version "4.15.4-drivenow-mobx-1"
-  resolved "https://nexus.drivenow.com.au/repository/npm/marko/-/marko-4.15.4-drivenow-mobx-1.tgz#89af885c55222dad0df9cdc67f8265800517c44b"
+marko@^4.15.4:
+  version "4.15.4"
+  resolved "https://nexus.drivenow.com.au/repository/npm/marko/-/marko-4.15.4.tgz#120ed1fefde8852e2e7208e7f61d9ea1da26bbb9"
   dependencies:
     app-module-path "^2.2.0"
     argly "^1.0.0"
