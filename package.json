@@ -1,0 +1,15 @@
+{
+  "name": "marko-browser-refresh-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "browser-refresh index.js"
+  },
+  "dependencies": {
+    "browser-refresh": "^1.7.3",
+    "browser-refresh-taglib": "^1.1.0",
+    "koa": "^2.7.0",
+    "marko": "^4.15.4-drivenow-mobx-1"
+  }
+}
